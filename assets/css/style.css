@@ -62,10 +62,11 @@ header nav a {
 }
 
 .projectOneContainer {
-    height: 750px;
+    height: 775px;
     width: 700px;
     padding: 10px;
     margin-left: 150px;
+    border: solid 1px white;
 }
 
 .projectRowOne {
@@ -79,7 +80,10 @@ header nav a {
 .projectOne {
     height: 50%;
     width: 100%;
+}
 
+.projectOne:hover {
+    opacity: .5;
 }
 
 .projectTwo {
@@ -87,23 +91,35 @@ header nav a {
     width: 350px;
 }
 
+.projectTwo:hover {
+    opacity: .5;
+}
+
 .projectThree {
     height: 189px;
     width: 350px;
 }
 
+.projectThree:hover {
+    opacity: .5;
+}
+
 .projectFour {
     height: 189px;
     width: 350px;
+}
 
-
+.projectFour:hover {
+    opacity: .5;
 }
 
 .projectFive {
     height: 189px;
     width: 350px;
+}
 
-
+.projectFive:hover {
+    opacity: .5;
 }
 
 .contactMeInfo{
@@ -113,10 +129,15 @@ header nav a {
 
 .contactMeInfo h1 {
     border-right: solid 1px white;
-    padding: 5px 10px 75px 66px;
+    padding: 5px 10px 75px -10px;
     font-size: 50px;
 }
 
 .contactMeInfo p {
     padding: 100px;
+}
+
+.footerInfo {
+    display: flex;
+    justify-content: space-between;
 }
