@@ -20,7 +20,7 @@ header .home {
 header .home a {
     color: white;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 header nav {
@@ -54,29 +54,74 @@ header nav a {
     padding: 100px;
 }
 
-.projectInfo{
+.projectInfoOne {
+    display: flex;
+}
+
+.projectInfoOne h1 {
+    border-right: solid 1px white;
+    padding: 5px 10px 0 51px;
+    font-size: 50px;
+}
+
+.projectOneContainer {
+    height: 600px;
+    width: 500px;
+    margin-left: 250px;
+    /* border: solid 1px white; */
+}
+
+.projectRowOne {
+    display: flex;
+}
+
+.projectRowThree {
+    display: flex;
+}
+
+.projectOne {
+    height: 50%;
+    width: 100%;
+}
+
+.projectTwo {
+    height: 150px;
+    width: 50%;
+
+}
+
+.projectThree {
+    height: 150px;
+    width: 50%;
+
+
+}
+
+.projectFour {
+    height: 150px;
+    width: 50%;
+
+
+}
+
+.projectFive {
+    height: 150px;
+    width: 50%;
+
+
+}
+
+.contactMeInfo{
     display: flex;
     margin-top: 20px;
 }
 
-.projectInfo h1 {
+.contactMeInfo h1 {
     border-right: solid 1px white;
-    padding: 5px 10px 75px 51px;
+    padding: 5px 10px 75px 66px;
     font-size: 50px;
 }
 
-.projectInfo p {
+.contactMeInfo p {
     padding: 100px;
-}
-
-.projectOne {
-    height: 300px;
-    width: 600px;
-    padding: 10px 0 0 240px;
-}
-
-.projectTwo {
-    height: 300px;
-    width: 600px;
-    padding: 10px 0 0 240px; 
 }
