@@ -1,39 +1,70 @@
 * {
+    margin: 0;
+    padding: 0;
     background-color: black;
     color: white;
-    margin: 0;
 }
-
-.display {
-    display: flex;
-    justify-content: space-between;
-}
-
-.profilePic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    border-radius: 10%;
-    margin-top: 15px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    border-bottom: solid 1px white;
-}
-
 a {
-    display: inline-flex;
-    margin-left: 2em;
+    color: white;
+}
+header {
+    height: 75px;
+    width: 100%;
 }
 
-h2 {
-    margin-left: 100px;
+header .home {
+    float: left;
+    margin: 25px 0 0 25px;
 }
 
-.abtMeInfo {
+header .home a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
 
+header nav {
+    float: right;
+    margin: 50px 10px 0 0 ;
+
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+.backgroundImg {
+    height: 250px;
+    width: 100%;
+}
+
+.abtMeInfo{
+    display: flex;
+    margin-top: 20px;
+}
+
+.abtMeInfo h1 {
+    border-right: solid 1px white;
+    padding: 5px 10px 75px 100px;
+    font-size: 50px;
+}
+
+.abtMeInfo p {
+    padding: 100px;
+}
+
+.projectInfo{
+    display: flex;
+    margin-top: 20px;
+}
+
+.projectInfo h1 {
+    border-right: solid 1px white;
+    padding: 5px 10px 75px 51px;
+    font-size: 50px;
+}
+
+.projectInfo p {
+    padding: 100px;
 }
