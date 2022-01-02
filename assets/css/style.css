@@ -4,9 +4,7 @@
     background-color: black;
     color: white;
 }
-a {
-    color: white;
-}
+
 header {
     height: 75px;
     width: 100%;
@@ -14,11 +12,10 @@ header {
 
 header .home {
     float: left;
-    margin: 25px 0 0 25px;
+    margin: 5px 0 0 30px;
 }
 
 header .home a {
-    color: white;
     text-decoration: none;
     font-size: 50px;
 }
@@ -65,10 +62,10 @@ header nav a {
 }
 
 .projectOneContainer {
-    height: 600px;
-    width: 500px;
-    margin-left: 250px;
-    /* border: solid 1px white; */
+    height: 750px;
+    width: 700px;
+    padding: 10px;
+    margin-left: 150px;
 }
 
 .projectRowOne {
@@ -82,31 +79,29 @@ header nav a {
 .projectOne {
     height: 50%;
     width: 100%;
+
 }
 
 .projectTwo {
-    height: 150px;
-    width: 50%;
-
+    height: 189px;
+    width: 350px;
 }
 
 .projectThree {
-    height: 150px;
-    width: 50%;
-
-
+    height: 189px;
+    width: 350px;
 }
 
 .projectFour {
-    height: 150px;
-    width: 50%;
+    height: 189px;
+    width: 350px;
 
 
 }
 
 .projectFive {
-    height: 150px;
-    width: 50%;
+    height: 189px;
+    width: 350px;
 
 
 }
