@@ -68,3 +68,15 @@ header nav a {
 .projectInfo p {
     padding: 100px;
 }
+
+.projectOne {
+    height: 300px;
+    width: 600px;
+    padding: 10px 0 0 240px;
+}
+
+.projectTwo {
+    height: 300px;
+    width: 600px;
+    padding: 10px 0 0 240px; 
+}
